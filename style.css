@@ -5,8 +5,8 @@
     /* 1vh représente 1% de la fenetre courante de hauteurn pour avoir un élément à la hauteur de votre fenêtre, mettre à 100  */
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* fr représente une fraction de l'espace disponible dans le conteneur de la grille. */
-    grid-template-rows: 50px 50px 150px 300px;
-    /* 0.5 0.5 2 2 */
+    grid-template-rows:  0.5fr 0.5fr 2fr 2fr;
+    /* 0.5 0.5 2 2    50px 20050pxpx 300px */
     grid-template-areas: 
     "main main main main"
     "sidebar content1 content1 content1"
@@ -73,6 +73,7 @@ main {
 /* Positionnement du tableau dans la carte */
 .existing {
     height: 150px;
+    width : auto;
     padding-top: 10px;
 
 }
@@ -80,14 +81,14 @@ main {
 /* Changement de l'emplacement des listes */ 
 
 .resources-list {
-    width : 300px;
+    width : auto;
     height : 300px;
     padding-top : 10px;
     padding-right: 20px;
 }
 
 .assets-list {
-    width : 300px;
+    width : auto;
     height : 300px;
     padding-top : 10px;
     padding-right: 20px;
