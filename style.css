@@ -5,7 +5,7 @@
     /* 1vh représente 1% de la fenetre courante de hauteurn pour avoir un élément à la hauteur de votre fenêtre, mettre à 100  */
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* fr représente une fraction de l'espace disponible dans le conteneur de la grille. */
-    grid-template-rows:  0.5fr 0.5fr 2fr 2fr;
+    grid-template-rows:  1fr 1fr 2fr 2fr;
     /* 0.5 0.5 2 2    50px 20050pxpx 300px */
     grid-template-areas: 
     "main main main main"
@@ -13,7 +13,7 @@
     "sidebar content2 content2 content2"
     
     ;
-    grid-gap : 20px;
+    grid-gap : 10px;
     
     color : #4E688A;
 }
